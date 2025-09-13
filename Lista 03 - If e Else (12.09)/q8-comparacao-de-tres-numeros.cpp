@@ -14,8 +14,8 @@ int main(){
 	printf("Digite o terceiro valor: ");
 	scanf("%d", &terceiro);
 	
-	if ((primeiro == segundo) || (primeiro == terceiro)){
-		printf("Os numeros devem ser diferentes");
+	if ((primeiro == segundo) || (primeiro == terceiro) || (segundo == terceiro)){
+		printf("Os numeros devem ser diferentes\n");
 	}
 	
 	else {
