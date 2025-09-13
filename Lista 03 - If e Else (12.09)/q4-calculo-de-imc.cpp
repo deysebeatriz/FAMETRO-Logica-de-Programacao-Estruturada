@@ -19,16 +19,16 @@ int main(){
 		if (IMC < 18.5) {
 			printf("Voce esta Abaixo do Peso!\n");
 		}
-		else if (18.5 <= IMC <= 24.9){
+		else if (18.5 <= IMC && IMC <= 24.9){
 			printf("Voce esta no Peso Normal!\n");
 		}
-		else if (25 <= IMC <= 29.9){
+		else if (25 <= IMC && IMC <= 29.9){
 			printf("Voce esta Sobrepeso!\n");
 		}
-		else if (30 <= IMC <= 34.9){
+		else if (30 <= IMC && IMC <= 34.9){
 			printf("Voce esta em Obesidade I!\n");
 		}
-		else if (35 <= IMC <= 39.9){
+		else if (35 <= IMC  && IMC <= 39.9){
 			printf("Voce esta em Obesidade II!\n");
 		}
 		else {
