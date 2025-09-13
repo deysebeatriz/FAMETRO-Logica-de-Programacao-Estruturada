@@ -15,7 +15,7 @@ int main(){
 	scanf("%d", &L3);
 	
 	if(L1 < L2 + L3 && L2 < L1 + L3 && L3 < L1 +L2) {
-		printf("forma um triangulo ");
+		printf("Forma um triangulo: ");
 		if (L1 == L2 && L1 == L3){
 			printf("Equilatero");
 		}
@@ -29,7 +29,7 @@ int main(){
 	}
 	
 	else{
-		printf("Nao eh um triangulo\n");
+		printf("Nao eh um triangulo\n");	
 	}
 		
 	return 0;
