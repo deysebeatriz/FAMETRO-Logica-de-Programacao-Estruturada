@@ -1,7 +1,5 @@
 //Dia da semana
 
-// avaliacao escolar
-
 #include <stdio.h>
 
 int main(){
