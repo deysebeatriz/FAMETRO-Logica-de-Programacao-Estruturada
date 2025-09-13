@@ -14,15 +14,24 @@ int main(){
 	printf("Digite o terceiro valor: ");
 	scanf("%d", &L3);
 	
-	if (L1 == L2 && L1 == L3){
-		printf("equilatero");
+	if(L1 < L2 + L3 && L2 < L1 + L3 && L3 < L1 +L2) {
+		printf("forma um triangulo ");
+		if (L1 == L2 && L1 == L3){
+			printf("Equilatero");
+		}
+		else if (L1 != L2 && L1 != L3 && L2 != L3) {
+			printf("Escaleno");
+		}
+		
+		else {
+			printf("Isósceles");
+		}
 	}
 	
-	else if (L1 != L2 && L1 != L3){
-		printf("escaleno");
+	else{
+		printf("Nao eh um triangulo\n");
 	}
-	
-	
+		
 	return 0;
 }
 
